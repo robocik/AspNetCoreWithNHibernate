@@ -1,0 +1,5 @@
+﻿CREATE TABLE ApplicationUser
+(
+	ApplicationUser_Key  nvarchar(32) NOT NULL Primary key,
+	constraint FK_ApplicationUser_AspNetUsers foreign key (ApplicationUser_Key) references AspNetUsers,
+) 

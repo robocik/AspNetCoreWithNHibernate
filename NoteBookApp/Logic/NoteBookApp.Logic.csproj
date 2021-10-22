@@ -1,0 +1,12 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="NHibernate" Version="5.3.10" />
+    <PackageReference Include="NHibernate.AspNetCore.Identity" Version="5.0.15" />
+  </ItemGroup>
+
+</Project>
